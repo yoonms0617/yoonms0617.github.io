@@ -35,6 +35,10 @@ body {
   flex: 1 0 auto;
 }
 
+.utterances {
+  max-width: 100% !important;
+}
+
 .page {
   @include breakpoint($large) {
     float: right;
